@@ -21,21 +21,25 @@ ul {
   padding: 0;
 }
 
-header li {
+header li, footer li{
   float: right;
 }
 
-header ul li a {
+header ul li a, footer ul li a{
   display: block;
   padding: 10px;
   text-decoration: none;
   color: white;
 }
 
-header {
+header, footer {
   background-size: cover;
   background-position: center;
   background-color: black;
+}
+
+footer p{
+  color:white;
 }
 
 img {
